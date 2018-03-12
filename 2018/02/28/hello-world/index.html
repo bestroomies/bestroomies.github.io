@@ -16,8 +16,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World">
 <meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="fb:admins" content="Bestroomies Admin">
-<meta property="fb:app_id" content="517002285155844">
+<meta property="fb:app_id" content="&#x2F;&#x2F;517002285155844">
     
 
     
@@ -151,8 +150,8 @@
     <div class="inner profile-inner">
         <div class="base-info profile-block">
             <img id="avatar" src="/css/images/avatar.png" />
-            <h2 id="name">bestroomies</h2>
-            <h3 id="title">roomie</h3>
+            <h2 id="name"></h2>
+            <h3 id="title"></h3>
             <span id="location"><i class="fa fa-map-marker"></i>Gurgaon, India</span>
             <a id="follow" target="_blank" href="http://bestroomies.com">FOLLOW</a>
         </div>
@@ -250,7 +249,7 @@
 
 </div>
 
-    <a data-url="https://bestroomies.github.io/2018/02/28/hello-world/" data-id="cjeo565ll0007rciyvdpu0op2" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://bestroomies.github.io/2018/02/28/hello-world/" data-id="cjeo6zxyw0004e4iy9s2bnqhy" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -318,7 +317,7 @@
 
             
     
-        <a href="https://bestroomies.github.io/2018/02/28/hello-world/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://bestroomies.github.io/2018/02/28/hello-world/">0</span>&nbsp;Comments</a>
+        <a href="https://bestroomies.github.io/2018/02/28/hello-world/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://bestroomies.github.io/2018/02/28/hello-world/">Comments</a>
     
 
         </footer>
@@ -347,8 +346,9 @@
     
     
         <section id="comments">
-    <div class="fb-comments" data-width="100%" data-href="https://bestroomies.github.io/2018/02/28/hello-world/" data-num-posts="5"></div>
-
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 </section>
     
 
@@ -485,7 +485,7 @@
             <ul>
                 
                     <li>
-                        <a href="http://hexo.io">Hexo</a>
+                        <a href="http://www.bestroomies.com">Hexo</a>
                     </li>
                 
             </ul>
@@ -509,14 +509,20 @@
 </footer>
         
     
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en/sdk.js#xfbml=1&version=v2.8";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
+    <script>
+    var disqus_config = function () {
+        
+            this.page.url = 'https://bestroomies.github.io/2018/02/28/hello-world/';
+        
+        this.page.identifier = 'hello-world';
+    };
+    (function() { 
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'https-bestroomies-github-io' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
 
 
 
